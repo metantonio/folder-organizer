@@ -3,6 +3,7 @@
 <a href="#">
     <img src="./portada.jpg" />
 </a>
+
 Este script en python se realizó para organizar los archivos de un directorio, en base a las extensiones de éstos. 
 
 Se debe MODIFICAR la ruta del directorio a organizar, en el archivo **main.py**
