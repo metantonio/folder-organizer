@@ -23,10 +23,11 @@ extentions = {
     "setup": [".msi", ".exe", ".EXE"],
     "programs": [".py", ".c", ".cpp", ".php", ".C", ".CPP"],
     "design": [".xd", ".psd"],
-    "sketchup": [".skp"],
+    "sketchup": [".skp", ".skb"],
     "apk": [".apk", ".APK"],
     "html":[".html", ".HTML"],
-    "others":["."]
+    "others":["."],
+    "batchs":[".bat"]
 
 
 }
