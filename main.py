@@ -67,14 +67,14 @@ for file in sourcefiles:
             print("folder name: ",name)
     dist = sorting(file)
     if dist:
-        print("both conditions are happening")
         try:
             shutil.move(file, "./" + dist)
         except:
             print(file + " is already exist")
     else:
+        print("File or Directory moved: ",file)
         try:
             if file is not name:
                 shutil.move(file, "./others")
         except:
-            print(file + " is already exist")
+            print(file + " is already exist in directory")
